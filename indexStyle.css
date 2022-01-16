@@ -1,3 +1,28 @@
 .divii {
     border: 1px solid black;
 }
+
+.custFootStyle {
+    height: 10vh;
+}
+
+.custHeadStyle {
+    height: 10vh;
+}
+
+.faqDiv {
+    height: 45vh;
+}
+
+.divPlacing {
+    margin: 1rem;
+}
+
+.sideDivPlacing {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.picDivPlacing {
+    margin-top: 1rem;
+}
