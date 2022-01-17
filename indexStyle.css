@@ -2,11 +2,13 @@ html, body {
     height: 100%;
     padding: 0%;
     margin: 0%;
+    background-color: #EBE8E0;
 }
 
 
 .divii {
-    border: 1px solid black;
+    border-radius: 7px;
+    background-color: #DBEBED;
 }
 
 .custFootStyle {
@@ -15,7 +17,7 @@ html, body {
         left: 0;
         right: 0%;
         width: 100%;
-        height: 10%;   
+        height: 10%;  
 }
 
 .custHeadStyle {
@@ -30,7 +32,7 @@ html, body {
 
 
 .firstRow {
-    margin-left: .5em;
+    margin-left: .1em;
     margin-right: .5em;
     margin-top: .5em;
     
@@ -46,19 +48,19 @@ html, body {
 }
 
 .picDivPlacing {
-    margin: 7px 7px 7px 7px;
+    margin: 7px 7px 7px 0px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .lineBreaker {
-    color: black;
     width: 90%;
-    height: 5px;
+    font-weight: bolder;
+    color: #10564F;
 }
 
 .spacer {
     width: 100%;
-    height: 15px;
+    height: 5%;
 }
 
 .footerList {
@@ -67,8 +69,22 @@ html, body {
 
 .listWrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
+
+.imgSizing {
+    max-width: 100%;
+    height: 20vh;
+}
+
+.faqStyling {
+    padding: 5px;
+}
+
+.lineItemStyling {
+    padding: 2px;
+}
+
 
 /* .listItemMargin {
     margin-left: auto !important;
